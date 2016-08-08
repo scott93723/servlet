@@ -1,0 +1,19 @@
+1.servlet 完全在http 伺服器上跑的java程式
+
+2.servlet 用來處理與使用者互動的網頁程式
+ex: users submit--> server   server(處理資訊)-->特定結果傳給user
+
+3.需要servlets.jar 檔案中相關package 才能編譯出 servlet
+servlet 不是標準的函式庫 需要從java.sum.com or 網頁伺服器供應商取得
+
+4.你必須有支援 servle 的網頁伺服器才能跑servlet ex.tomcat
+
+5.servlet 必須放特定的位置才可執行
+
+6.servlet 是extetnd 過HttpServlet 並override 過doGet() 與 doPost() 來建構的
+
+7.網頁伺服器會根據user 的request來啟動並呼叫servlet對應的method
+
+8.servlet 可以透過doGet()的response參數取得輸出串流來組成可以回應的網頁。
+
+9.servlet 要輸出帶有完整tag的html網頁
